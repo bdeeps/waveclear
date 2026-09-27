@@ -1,0 +1,653 @@
+{
+  "title": "The history of waves and resonance",
+  "tagline": "From Pythagoras's strings to ripples in spacetime: how people learned that sound, light and even gravity travel as waves.",
+  "intro": "Musicians knew for thousands of years that string lengths make harmony, but it took until the 1600s to see pitch as frequency and to write the laws of a vibrating string. Then came the speed of sound, patterns in sand, light's interference and Maxwell's discovery that light is an electromagnetic wave. The 20th century added radio, microwave ovens, a tabla explained by an Indian physicist, a bridge that twisted itself apart, and in 2015, waves in space itself.",
+  "eras": [
+    {
+      "id": "strings",
+      "name": "Strings and numbers",
+      "from": -530,
+      "to": 1638,
+      "color": "#ffb547",
+      "summary": "Harmony is found to follow whole numbers, the octave is split into equal steps, and Mersenne and Galileo tie pitch to frequency."
+    },
+    {
+      "id": "sound",
+      "name": "Measuring sound",
+      "from": 1660,
+      "to": 1816,
+      "color": "#6fb6ff",
+      "summary": "Sound needs air, pitch is counted in clicks, its speed is calculated and corrected, and sand reveals standing waves."
+    },
+    {
+      "id": "light",
+      "name": "Light becomes a wave",
+      "from": 1801,
+      "to": 1887,
+      "color": "#c49bff",
+      "summary": "Young's fringes, Doppler's shifting pitch, Maxwell's equations and Hertz's radio waves show that light is an electromagnetic wave."
+    },
+    {
+      "id": "modern",
+      "name": "Resonance at work",
+      "from": 1920,
+      "to": 2016,
+      "color": "#5ce1a9",
+      "summary": "Drums explained, a bridge destroyed, kitchens transformed and gravitational waves detected."
+    }
+  ],
+  "events": [
+    {
+      "year": -530,
+      "date": "c. 530 BCE (attributed)",
+      "era": "strings",
+      "art": "monochord",
+      "key": true,
+      "title": "Whole-number strings sound sweet",
+      "who": "Pythagoras and his followers (attributed)",
+      "where": "Croton, Magna Graecia",
+      "country": "Italy",
+      "text": "Greek tradition credits Pythagoras with finding that a string halved in length sounds an octave higher, and that lengths in ratios 3:2 and 4:3 give the fifth and fourth. The famous story of blacksmiths' hammers is a later legend and doesn't work physically.",
+      "why": "It was the first law of nature written as numbers, and the seed of fₙ = n v ÷ 2L.",
+      "box": "sound",
+      "sources": [
+        16,
+        1
+      ]
+    },
+    {
+      "year": 1584,
+      "date": "1584",
+      "era": "strings",
+      "art": "keys",
+      "key": false,
+      "title": "Twelve equal steps to the octave",
+      "who": "Zhu Zaiyu",
+      "where": "Ming dynasty court",
+      "country": "China",
+      "text": "The Chinese prince and scholar Zhu Zaiyu calculated how to split the octave into 12 equal steps, each the twelfth root of 2, about 1.0595 times the last, to many decimal places. Simon Stevin reached the same idea in Europe a few decades later.",
+      "why": "Every modern piano key is tuned this way: each is 1.0595 times the frequency of the one below.",
+      "box": "sound",
+      "sources": [
+        20
+      ]
+    },
+    {
+      "year": 1636,
+      "date": "1636",
+      "era": "strings",
+      "art": "string",
+      "key": true,
+      "title": "Mersenne's laws of strings",
+      "who": "Marin Mersenne",
+      "where": "Paris",
+      "country": "France",
+      "text": "In Harmonie universelle, Mersenne set out how a string's pitch depends on its length (inversely), tension (as its square root) and weight per length (inversely as its square root). He also made the first absolute measurement of a note's frequency, about 84 vibrations a second.",
+      "why": "These laws are v = √(T ÷ μ) and f = v ÷ 2L, the rules behind every stringed instrument.",
+      "box": "idea",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 1638,
+      "date": "1638",
+      "era": "strings",
+      "art": "pendulum",
+      "key": false,
+      "title": "Pitch is how fast it shakes",
+      "who": "Galileo Galilei",
+      "where": "Leiden (published), Arcetri",
+      "country": "Italy",
+      "text": "In Two New Sciences, Galileo argued that pitch is set by how many vibrations reach the ear each second, and compared vibrating strings with swinging pendulums, whose rhythm depends only on their length.",
+      "why": "It tied musical pitch to frequency, and the pendulum's natural rhythm is exactly what a swing resonates with.",
+      "box": "resonance",
+      "sources": [
+        17
+      ]
+    },
+    {
+      "year": 1660,
+      "date": "1660",
+      "era": "sound",
+      "art": "flask",
+      "key": false,
+      "title": "A bell in a vacuum",
+      "who": "Robert Boyle, with Robert Hooke",
+      "where": "Oxford",
+      "country": "England",
+      "text": "Using an air pump built with his assistant Robert Hooke, Boyle pumped the air from a glass jar holding a ticking watch. The ticking grew fainter as the air went and returned when it was let back in.",
+      "why": "It showed that sound needs air to travel, while light passed through the empty jar untouched.",
+      "box": "limits",
+      "sources": [
+        18
+      ]
+    },
+    {
+      "year": 1681,
+      "date": "1681",
+      "era": "sound",
+      "art": "gear",
+      "key": false,
+      "title": "A wheel that sings a known pitch",
+      "who": "Robert Hooke",
+      "where": "Royal Society, London",
+      "country": "England",
+      "text": "Hooke held a card against a spinning toothed brass wheel. The faster it spun, the more clicks each second and the higher the note, so he could make a sound of known frequency on demand.",
+      "why": "It showed directly that pitch is frequency, the idea behind every sound chapter since.",
+      "box": "sound",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "year": 1687,
+      "date": "1687",
+      "era": "sound",
+      "art": "apple",
+      "key": true,
+      "title": "Newton calculates the speed of sound",
+      "who": "Isaac Newton",
+      "where": "Cambridge",
+      "country": "England",
+      "text": "In the Principia, Newton worked out the speed of sound from the springiness and density of air. He got about 298 m/s, some 15 % too low, and could not explain the gap.",
+      "why": "It was the first attempt to predict a wave's speed from the medium it travels through, the idea that v is set by the medium, not the source.",
+      "box": "sound",
+      "sources": [
+        2,
+        19
+      ]
+    },
+    {
+      "year": 1787,
+      "date": "1787",
+      "era": "sound",
+      "art": "plate",
+      "key": true,
+      "title": "Sand draws the nodes",
+      "who": "Ernst Chladni",
+      "where": "Wittenberg",
+      "country": "Germany",
+      "text": "Chladni scattered sand on metal plates and bowed their edges. The sand danced off the vibrating parts and gathered on the still lines, the nodes, making beautiful patterns that change with each note.",
+      "why": "They made standing waves visible for the first time, and gave acoustics its founder.",
+      "box": "sound",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1801,
+      "date": "1801–1803",
+      "era": "light",
+      "art": "wave",
+      "key": true,
+      "title": "Light makes interference fringes",
+      "who": "Thomas Young",
+      "where": "Royal Society, London",
+      "country": "England",
+      "text": "In his 1801 Bakerian lecture Young explained colours by interference: waves that meet in step add, and waves out of step cancel. By 1803 he described light passing two slits and making bright and dark bands.",
+      "why": "It was strong evidence that light is a wave, against Newton's popular idea of particles.",
+      "box": "limits",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "year": 1816,
+      "date": "1816",
+      "era": "sound",
+      "art": "plate",
+      "key": false,
+      "title": "A prize for vibrating plates",
+      "who": "Sophie Germain",
+      "where": "Paris",
+      "country": "France",
+      "text": "Napoleon's Academy offered a prize for the mathematics of Chladni's patterns. Sophie Germain, a self-taught mathematician barred from universities as a woman, entered three times and won in 1816, the first woman to win a prize from the Paris Academy of Sciences.",
+      "why": "Her work began the theory of elastic plates, still used to design everything from loudspeakers to bridges.",
+      "box": "resonance",
+      "sources": [
+        21,
+        4
+      ]
+    },
+    {
+      "year": 1816,
+      "date": "1816",
+      "era": "sound",
+      "art": "thermometer",
+      "key": false,
+      "title": "Laplace fixes Newton's error",
+      "who": "Pierre-Simon Laplace",
+      "where": "Paris",
+      "country": "France",
+      "text": "Laplace realised that squeezed air in a sound wave warms up and stretched air cools, too fast for the heat to escape. Adding that effect raised Newton's speed of sound to match the measured value, about 340 m/s.",
+      "why": "It closed a 130-year puzzle and is why the box uses v = 331 √(1 + T/273) m/s.",
+      "box": "sound",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "year": 1842,
+      "date": "1842",
+      "era": "light",
+      "art": "soundwave",
+      "key": true,
+      "title": "Moving sources change pitch",
+      "who": "Christian Doppler",
+      "where": "Prague",
+      "country": "Czech Republic",
+      "text": "Doppler proposed that a wave's frequency depends on how its source and listener move: higher when approaching, lower when moving apart. In 1845 C. H. D. Buys Ballot tested it in the Netherlands with musicians playing a steady note on a moving train.",
+      "why": "The Doppler effect now measures blood flow, weather and the expansion of the universe.",
+      "box": "",
+      "sources": [
+        6,
+        7,
+        23
+      ]
+    },
+    {
+      "year": 1865,
+      "date": "1865",
+      "era": "light",
+      "art": "sinewave",
+      "key": true,
+      "title": "Light is an electromagnetic wave",
+      "who": "James Clerk Maxwell",
+      "where": "London",
+      "country": "United Kingdom",
+      "text": "In A Dynamical Theory of the Electromagnetic Field, Maxwell showed that electric and magnetic fields can travel together as a wave. The speed his equations predicted matched the measured speed of light.",
+      "why": "It joined light, electricity and magnetism, and predicted invisible waves nobody had yet made.",
+      "box": "light",
+      "sources": [
+        8,
+        24
+      ]
+    },
+    {
+      "year": 1887,
+      "date": "1887",
+      "era": "light",
+      "art": "magnet",
+      "key": true,
+      "title": "Hertz makes radio waves",
+      "who": "Heinrich Hertz",
+      "where": "Karlsruhe",
+      "country": "Germany",
+      "text": "With a spark gap and a loop of wire, Hertz sent and detected invisible electromagnetic waves across his lab. He reflected them off a metal sheet to make standing waves a few metres long, and showed they travel at the speed of light.",
+      "why": "It proved Maxwell right and opened the way to radio, TV, Wi-Fi and microwave ovens. The unit of frequency is named after him.",
+      "box": "light",
+      "sources": [
+        9,
+        26
+      ]
+    },
+    {
+      "year": 1920,
+      "date": "1920",
+      "era": "modern",
+      "art": "tabla",
+      "key": true,
+      "title": "Why the tabla sings in tune",
+      "who": "C. V. Raman and Sivakali Kumar",
+      "where": "Calcutta",
+      "country": "India",
+      "text": "Most drums make overtones that are out of tune with each other. Raman and Kumar showed in Nature that Indian drums like the tabla and mridangam give harmonic overtones, in a musical series like a string's, thanks to the loaded black patch on the drumhead.",
+      "why": "It explained, with physics, a design Indian drum makers had perfected by ear over centuries.",
+      "box": "resonance",
+      "sources": [
+        10,
+        25
+      ]
+    },
+    {
+      "year": 1940,
+      "date": "7 November 1940",
+      "era": "modern",
+      "art": "wind",
+      "key": true,
+      "title": "Galloping Gertie falls",
+      "who": "Tacoma Narrows Bridge",
+      "where": "Tacoma, Washington",
+      "country": "United States",
+      "text": "Four months after opening, the 853 m span twisted about 12 times a minute in a steady 64 km/h wind, until it tore apart and fell into Puget Sound. Film of the collapse became world famous.",
+      "why": "Often called resonance, it was really aeroelastic flutter: the twisting deck made the wind push it harder, and bridges have been wind-tested ever since.",
+      "box": "limits",
+      "sources": [
+        11,
+        12
+      ]
+    },
+    {
+      "year": 1945,
+      "date": "1945",
+      "era": "modern",
+      "art": "magnetron",
+      "key": false,
+      "title": "A melted chocolate bar",
+      "who": "Percy Spencer",
+      "where": "Raytheon, Massachusetts",
+      "country": "United States",
+      "text": "Working on radar magnetrons, Spencer noticed a chocolate bar in his pocket had melted. He tried popcorn and an egg next, and Raytheon patented microwave cooking in 1945.",
+      "why": "It led to the microwave oven, whose 12 cm standing waves this box lets you watch.",
+      "box": "light",
+      "sources": [
+        22
+      ]
+    },
+    {
+      "year": 2000,
+      "date": "10 June 2000",
+      "era": "modern",
+      "art": "person",
+      "key": false,
+      "title": "The wobbly bridge",
+      "who": "Millennium Bridge",
+      "where": "London",
+      "country": "United Kingdom",
+      "text": "On opening day, thousands of walkers made London's new footbridge sway sideways by about 70 mm. People fell into step with the sway, which made it worse. It closed after two days and reopened in 2002 with 37 fluid dampers and 52 tuned mass dampers.",
+      "why": "It showed that people can drive resonance too, and changed how footbridges are designed.",
+      "box": "resonance",
+      "sources": [
+        13
+      ]
+    },
+    {
+      "year": 2015,
+      "date": "14 September 2015",
+      "era": "modern",
+      "art": "blackhole",
+      "key": true,
+      "title": "Waves in space itself",
+      "who": "LIGO team",
+      "where": "Hanford, Washington and Livingston, Louisiana",
+      "country": "United States",
+      "text": "Two detectors caught a gravitational wave from two black holes merging 1.4 billion light-years away. It stretched the 4 km arms by a thousandth of a proton's width, chirping from 35 to 250 Hz in a fifth of a second.",
+      "why": "Einstein's last untested prediction was confirmed, opening a new way to observe the universe; the leaders won the 2017 Nobel Prize.",
+      "box": "",
+      "sources": [
+        14,
+        15
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "First measured frequency of a musical note",
+      "value": "1636",
+      "who": "Marin Mersenne, Paris (about 84 Hz)"
+    },
+    {
+      "label": "First calculated speed of sound",
+      "value": "1687",
+      "who": "Isaac Newton, Cambridge (298 m/s, 15 % low)"
+    },
+    {
+      "label": "First interference of light explained",
+      "value": "1801",
+      "who": "Thomas Young, London"
+    },
+    {
+      "label": "First radio waves made and detected",
+      "value": "1887",
+      "who": "Heinrich Hertz, Karlsruhe"
+    },
+    {
+      "label": "First gravitational wave detected",
+      "value": "2015",
+      "who": "LIGO, United States"
+    }
+  ],
+  "people": [
+    {
+      "name": "Marin Mersenne",
+      "life": "1588 – 1648",
+      "role": "Friar, mathematician and music theorist",
+      "from": "France",
+      "note": "Wrote the laws of vibrating strings and first measured a note's frequency."
+    },
+    {
+      "name": "Zhu Zaiyu",
+      "life": "1536 – 1611",
+      "role": "Prince, mathematician and music theorist",
+      "from": "China",
+      "note": "First to calculate twelve-tone equal temperament precisely."
+    },
+    {
+      "name": "Robert Hooke",
+      "life": "1635 – 1703",
+      "role": "Experimenter and inventor",
+      "from": "England",
+      "note": "Built Boyle's air pump and made tones of known frequency with a toothed wheel."
+    },
+    {
+      "name": "Ernst Chladni",
+      "life": "1756 – 1827",
+      "role": "Physicist and musician",
+      "from": "Germany",
+      "note": "Made standing waves visible with sand on vibrating plates."
+    },
+    {
+      "name": "Sophie Germain",
+      "life": "1776 – 1831",
+      "role": "Mathematician",
+      "from": "France",
+      "note": "Won the Paris Academy's prize for the theory of vibrating plates in 1816."
+    },
+    {
+      "name": "Thomas Young",
+      "life": "1773 – 1829",
+      "role": "Physician and physicist",
+      "from": "England",
+      "note": "Showed interference of light, evidence that light is a wave."
+    },
+    {
+      "name": "James Clerk Maxwell",
+      "life": "1831 – 1879",
+      "role": "Physicist",
+      "from": "Scotland",
+      "note": "Showed that light is an electromagnetic wave."
+    },
+    {
+      "name": "Heinrich Hertz",
+      "life": "1857 – 1894",
+      "role": "Physicist",
+      "from": "Germany",
+      "note": "First made and detected radio waves; the unit of frequency bears his name."
+    },
+    {
+      "name": "C. V. Raman",
+      "life": "1888 – 1970",
+      "role": "Physicist, Nobel laureate 1930",
+      "from": "India",
+      "note": "Explained why the tabla and mridangam have musical overtones."
+    }
+  ],
+  "series": [
+    {
+      "id": "soundspeed",
+      "title": "Early estimates of the speed of sound in air",
+      "unit": "m/s",
+      "log": false,
+      "after": "sound",
+      "caption": "Seventeenth-century measurements and Newton's calculation scattered widely around today's 343 m/s at 20 °C.",
+      "points": [
+        {
+          "year": 1635,
+          "value": 478,
+          "label": "Gassendi: 1,473 Paris feet a second, about 478 m/s"
+        },
+        {
+          "year": 1636,
+          "value": 448,
+          "label": "Mersenne: 1,380 Paris feet a second, about 448 m/s"
+        },
+        {
+          "year": 1650,
+          "value": 350,
+          "label": "Borelli and Viviani: about 350 m/s"
+        },
+        {
+          "year": 1687,
+          "value": 298,
+          "label": "Newton's calculation: 979 ft/s, about 298 m/s"
+        },
+        {
+          "year": 1709,
+          "value": 348,
+          "label": "Derham: 1,072 Paris feet a second, about 348 m/s"
+        },
+        {
+          "year": 1816,
+          "value": 340,
+          "label": "Laplace's corrected theory: about 340 m/s"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "The Tacoma Narrows Bridge's only death was a dog named Tubby, left in a car on the deck.",
+    "Hertz, asked what his radio waves were good for, reportedly said they were of no use whatsoever.",
+    "The LIGO signal stretched 4 km arms by about a thousandth of the width of a proton.",
+    "Every piano key is the twelfth root of 2, about 1.0595, times the frequency of the one below it.",
+    "A microwave oven's hot spots, about 6 cm apart, let you measure the speed of light with a bar of chocolate and a ruler."
+  ],
+  "sources": [
+    {
+      "title": "Marin Mersenne",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marin_Mersenne"
+    },
+    {
+      "title": "Mersenne's laws",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mersenne%27s_laws"
+    },
+    {
+      "title": "Speed of sound: history",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Speed_of_sound"
+    },
+    {
+      "title": "Making waves (Hooke's toothed wheel)",
+      "publisher": "The Royal Society",
+      "url": "https://royalsociety.org/blog/2024/11/making-waves/"
+    },
+    {
+      "title": "Ernst Chladni",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ernst_Chladni"
+    },
+    {
+      "title": "Young's interference experiment",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Young%27s_interference_experiment"
+    },
+    {
+      "title": "Christian Doppler",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Christian_Doppler"
+    },
+    {
+      "title": "Doppler effect",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Doppler_effect"
+    },
+    {
+      "title": "A Dynamical Theory of the Electromagnetic Field",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field"
+    },
+    {
+      "title": "Heinrich Hertz",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Heinrich_Hertz"
+    },
+    {
+      "title": "Musical Drums with Harmonic Overtones (Raman and Kumar, Nature 104, 500)",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/104500a0"
+    },
+    {
+      "title": "Tacoma Narrows Bridge (1940)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)"
+    },
+    {
+      "title": "Resonance, Tacoma Narrows bridge failure, and undergraduate physics textbooks (Billah and Scanlan, Am. J. Phys. 59, 118)",
+      "publisher": "American Journal of Physics",
+      "url": "https://doi.org/10.1119/1.16590"
+    },
+    {
+      "title": "Millennium Bridge, London",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Millennium_Bridge,_London"
+    },
+    {
+      "title": "First observation of gravitational waves",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves"
+    },
+    {
+      "title": "The Nobel Prize in Physics 2017",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/2017/summary/"
+    },
+    {
+      "title": "Pythagorean tuning",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pythagorean_tuning"
+    },
+    {
+      "title": "Two New Sciences",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Two_New_Sciences"
+    },
+    {
+      "title": "New Experiments Physico-Mechanicall, Touching the Spring of the Air",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/New_Experiments_Physico-Mechanicall,_Touching_the_Spring_of_the_Air"
+    },
+    {
+      "title": "Philosophiæ Naturalis Principia Mathematica",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica"
+    },
+    {
+      "title": "Zhu Zaiyu",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zhu_Zaiyu"
+    },
+    {
+      "title": "Sophie Germain",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sophie_Germain"
+    },
+    {
+      "title": "Percy Spencer",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Percy_Spencer"
+    },
+    {
+      "title": "Christian Doppler (biography)",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Christian-Doppler"
+    },
+    {
+      "title": "James Clerk Maxwell",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/James-Clerk-Maxwell"
+    },
+    {
+      "title": "C. V. Raman: The Nobel Prize in Physics 1930",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/1930/raman/biographical/"
+    },
+    {
+      "title": "Hertz (unit)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hertz"
+    }
+  ]
+}

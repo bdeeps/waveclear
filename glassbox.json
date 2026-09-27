@@ -1,0 +1,173 @@
+{
+  "slug": "waveclear",
+  "kind": "principle",
+  "box": 11,
+  "date": "2026-09-27",
+  "title": "Waves and resonance",
+  "question": "What are waves and resonance?",
+  "principle": {
+    "type": "principle",
+    "name": "Waves and resonance",
+    "formula": "v = f × λ",
+    "formulaNote": "wave speed = frequency × wavelength, so for a fixed speed a higher frequency means shorter waves; and a system pushed at its own natural frequency resonates",
+    "idea": "A wave is a wobble that travels, carrying energy but not the stuff it moves through, and its speed is how many waves pass each second times the length of each one: v = f × λ. Push anything at its own natural rhythm and small pushes add up to a big swing: that is resonance.",
+    "discovered": "1636 · Marin Mersenne, France: the laws of vibrating strings and the first measured frequency of a musical note",
+    "art": "wave",
+    "appliesTo": [
+      "pianoclear",
+      "guitarclear",
+      "fluteclear",
+      "tablaclear",
+      "earclear",
+      "microwaveclear",
+      "washerclear",
+      "mriclear",
+      "tvclear",
+      "cameraclear"
+    ],
+    "examples": [
+      {
+        "title": "A piano string's note",
+        "text": "The A above middle C vibrates 440 times a second, so its sound wave in the room is 343 ÷ 440 = 78 cm long. A string's length, tension and weight set its speed of waves, and so its pitch.",
+        "box": "pianoclear"
+      },
+      {
+        "title": "Frets on a guitar",
+        "text": "A plucked string rings with standing waves at fₙ = n v ÷ 2L: 82, 165, 247 Hz… for the low E. Press the 12th fret, halve L, and the note jumps an octave.",
+        "box": "guitarclear"
+      },
+      {
+        "title": "A flute's air column",
+        "text": "Open at both ends, the air inside follows the same rule as a string with v = 343 m/s. About 66 cm of air gives C4 at 262 Hz; blow harder and it jumps to the second harmonic.",
+        "box": "fluteclear"
+      },
+      {
+        "title": "The tabla's black spot",
+        "text": "A plain drumhead's overtones are out of tune. The tabla's heavy syahi reshapes its vibrations so they fall into a musical series, as C. V. Raman showed in 1920.",
+        "box": "tablaclear"
+      },
+      {
+        "title": "Your cochlea",
+        "text": "The membrane inside your inner ear is stiff at one end and floppy at the other, so each place resonates with its own pitch: high notes near the entrance, low notes at the tip.",
+        "box": "earclear"
+      },
+      {
+        "title": "Microwave hot spots",
+        "text": "At 2.45 GHz the waves are c ÷ f = 12.2 cm long, and bouncing between the walls they make hot spots about 6 cm apart. The door's 1–2 mm holes are far smaller than that, so microwaves bounce back while light gets out.",
+        "box": "microwaveclear"
+      },
+      {
+        "title": "A washer's spin-up shudder",
+        "text": "The tub hangs on springs with a natural frequency of a few hertz. As the drum spins up through about 200 rpm, the clothes shake it at resonance; at 1,400 rpm it runs far calmer.",
+        "box": "washerclear"
+      },
+      {
+        "title": "MRI is magnetic resonance",
+        "text": "In a 1.5 tesla magnet, hydrogen nuclei wobble at 63.9 MHz. A radio pulse at exactly that frequency tips them over; any other frequency does almost nothing.",
+        "box": "mriclear"
+      },
+      {
+        "title": "Colours on a TV",
+        "text": "Each pixel mixes red, green and blue light of about 630, 530 and 460 nm. The remote talks to the TV with infrared at about 940 nm, too long a wavelength for your eyes.",
+        "box": "tvclear"
+      },
+      {
+        "title": "Light slowing in a lens",
+        "text": "Light moves about a third slower in glass. Its frequency can't change, so its wavelength shrinks and the wavefront swings round: that bend is how a camera lens focuses.",
+        "box": "cameraclear"
+      }
+    ]
+  },
+  "hook": "Shake a rope, pluck a string, switch on a microwave: it's the same rule every time, speed = frequency × wavelength. Play with waves on a rope, in air and in light, push a swing and a washing machine into resonance, and find out what really brought down the Tacoma Narrows Bridge.",
+  "thumbText": "WAVES AND RESONANCE",
+  "field": "physics",
+  "minutes": 14,
+  "tags": [
+    "waves",
+    "resonance",
+    "wavelength",
+    "frequency",
+    "sound",
+    "standing waves",
+    "harmonics",
+    "electromagnetic waves",
+    "interference",
+    "physics",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A wave carries energy, not stuff",
+      "text": "Shake a rope and a shape runs along it while each bit of rope only goes up and down. Each shake sends one wavelength, so v = f × λ. The speed belongs to the rope; shaking faster only packs the crests closer."
+    },
+    {
+      "title": "Sound is squeezed air",
+      "text": "A loudspeaker pushes air into bunches that race away at 343 m/s. Pitch is frequency: A4 is 440 Hz with 78 cm waves. A string or pipe fixed at its ends rings only at fₙ = n v ÷ 2L, the harmonics."
+    },
+    {
+      "title": "Light is a wave too",
+      "text": "Radio, microwaves, light and X-rays are electromagnetic waves, all at c. A microwave oven's 2.45 GHz waves are 12.2 cm long, making hot spots 6 cm apart, and the door's tiny holes turn them back while light gets out."
+    },
+    {
+      "title": "Resonance: push in step",
+      "text": "Everything that can wobble has a natural frequency. Push at that rhythm, like a swing every 3 s, and small pushes add up until damping balances them. Washers shudder as they spin through it; a wine glass can shatter."
+    },
+    {
+      "title": "Surprises and a myth",
+      "text": "Waves add, so they can cancel: calm lines between ripples, beats between close notes. Sound needs a medium, light doesn't. And Tacoma Narrows wasn't simple resonance: a steady wind fed a twisting flutter."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Frequency (f)",
+      "def": "How many waves pass a point each second, in hertz (Hz)."
+    },
+    {
+      "term": "Wavelength (λ)",
+      "def": "The distance from one crest to the next."
+    },
+    {
+      "term": "Wave speed",
+      "def": "How fast the pattern travels: v = f × λ. Set by the medium, not the source."
+    },
+    {
+      "term": "Standing wave",
+      "def": "Two waves travelling opposite ways that add into a pattern of fixed nodes and antinodes."
+    },
+    {
+      "term": "Harmonics",
+      "def": "The whole-number multiples of a string's or pipe's lowest frequency: fₙ = n v ÷ 2L."
+    },
+    {
+      "term": "Electromagnetic wave",
+      "def": "Linked electric and magnetic fields travelling at c = 299,792 km/s, even through empty space."
+    },
+    {
+      "term": "Resonance",
+      "def": "A large response when a system is driven at its own natural frequency."
+    },
+    {
+      "term": "Interference",
+      "def": "Waves adding where they overlap: reinforcing in step, cancelling half a wave out of step."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "waveclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
